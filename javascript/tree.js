@@ -17,13 +17,12 @@ var totalPictures = " ";
  }
  else if(favirateTree == paperColor2){
 
-  Picture = ('<img src ="https://live.staticflickr.com/8476/8096973901_0f3a7eb093_b.jpg">')
+  Picture = ('< src ="https://live.staticflickr.com/8476/8096973901_0f3a7eb093_b.jpg" >')
 
  }else {
      alert("choose red or pink");
  }
 
-getColor(favirateTree);
 
 
 var getColor = function(favirateTree){
