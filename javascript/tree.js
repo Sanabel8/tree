@@ -1,6 +1,6 @@
+function getColor(){
 
 alert(" welcome on my tree website");
-
 
 
 var favirateTree =prompt ("what's your favirate tree color? plz choose between red or pink");
@@ -23,11 +23,15 @@ var totalPictures = " ";
      alert("choose red or pink");
  }
 
+getColor(favirateTree);
 
 
+var getColor = function(favirateTree){
  while (favirateTree != "pink" && favirateTree != paperColor2){
     favirateTree = prompt ("choose pink or red ");
  }
+}
+console.log (favirateTree);
 
 
 var numberOfPicture = prompt (" plz inter number of picture ");
@@ -37,6 +41,10 @@ var numberOfPicture = prompt (" plz inter number of picture ");
   console.log ("number of picture is " + i );
 
   totalPictures+=Picture
+  
+  
    }
 
  document.write(totalPictures);
+  }
+  getColor();
